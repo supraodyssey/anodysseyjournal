@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The Complete Guide to Tulip Festival in April at Keukenhof"
+title: "The Complete Guide to Tulip Festival in April at Keukenhof"
 author: pramod
-categories: [ Amsterdam, Europe ]
+categories: [Amsterdam, Europe, Travel]
 image: assets/images/netherlands/keukenhof.jpg
 tags: [featured]
 ---
@@ -38,4 +38,3 @@ You can find more information in the official website of [Keukenhof](https://keu
 ![Keukenhof]({{ site.baseurl }}/assets/images/netherlands/keukenhof7.jpg)
 
 In conclusion, the Keukenhof Tulip Festival is an incredible experience that you won't want to miss. Whether you're a gardener, a nature lover, or just looking for a beautiful place to spend a day, Keukenhof is sure to exceed your expectations. With easy access from Amsterdam and Leiden by public transportation and a wide variety of attractions to see and do, this stunning garden is a must-visit destination for anyone visiting the Netherlands in April.
-

@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "4 Days in Slovenia: The Perfect October Itinerary"
+title: "4 Days in Slovenia: The Perfect October Itinerary"
 author: pramod
-categories: [ Slovenia, Europe ]
+categories: [Slovenia, Europe, Travel]
 image: assets/images/slovenia/slovenia1.jpg
 tags: [featured]
 ---
+
 Slovenia is a beautiful country located in the heart of Europe. It is a small country with a rich history and diverse landscapes that offer an array of activities and attractions to visitors. If you're planning a trip to Slovenia in October, you're in for a real treat! With its colorful autumn foliage, crisp air, and fewer crowds, this is an ideal time to visit.
 
 In this post, we'll share with you a 4-day itinerary that takes you through some of Slovenia's most breathtaking landscapes and fascinating cities. This itinerary includes stops in Ljubljana, Lake Bled, Lake Bohinj, and the Vintgar Gorge.
@@ -51,6 +52,7 @@ On your last day, return to Ljubljana for some last-minute shopping and sightsee
 Consider visiting some of the city's many museums and art galleries, or take a relaxing stroll through one of its many parks.
 
 ### Public transportation
+
 Public transportation in Slovenia is reliable and efficient, making it easy to get around and explore the country. Here's a quick overview of the different modes of transportation you can use during your 4-day itinerary:
 
 Ljubljana: The city has an extensive network of buses and trolleys that cover the entire city and its suburbs. You can purchase a single ticket or a multi-day pass from the driver or at a newsstand. There's also a funicular that runs from the city center to Ljubljana Castle, offering great views along the way.

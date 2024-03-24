@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "5 Days of Island Bliss: A May-June Tour of Greece's Santorini, Naxos, and Mykonos"
+title: "5 Days of Island Bliss: A May-June Tour of Greece's Santorini, Naxos, and Mykonos"
 author: pramod
-categories: [ Greece, Europe ]
+categories: [Greece, Europe, Travel]
 image: assets/images/greece/greece.jpg
 tags: [featured]
 ---
-Embark on a journey through Greece's stunning islands this May and June. With warm sunny weather, inviting beaches, and breathtaking natural beauty, the islands of Santorini, Naxos, and Mykonos offer the perfect escape for those looking to relax and rejuvenate. The country's numerous islands offer a unique combination of natural beauty and cultural richness, making it a popular destination for tourists from all over the world. In this 5-day tour, you will experience the best these three islands have to offer and create memories that will last a lifetime. So, pack your bags and get ready for an unforgettable adventure through Greece's paradise islands.
 
+Embark on a journey through Greece's stunning islands this May and June. With warm sunny weather, inviting beaches, and breathtaking natural beauty, the islands of Santorini, Naxos, and Mykonos offer the perfect escape for those looking to relax and rejuvenate. The country's numerous islands offer a unique combination of natural beauty and cultural richness, making it a popular destination for tourists from all over the world. In this 5-day tour, you will experience the best these three islands have to offer and create memories that will last a lifetime. So, pack your bags and get ready for an unforgettable adventure through Greece's paradise islands.
 
 ### Day 1: Arrival in Santorini
 
@@ -24,6 +24,7 @@ Today, spend the day exploring the rest of the island. Visit the ancient city of
 Today, it's time to leave Santorini and head to the island of Naxos, known for its lush landscapes, golden sand beaches, and rich cultural heritage. Upon arrival, visit the ancient Temple of Demeter, a well-preserved temple dedicated to the goddess of agriculture. After exploring the temple, head to the picturesque town of Hora and wander through its charming streets, filled with traditional Greek architecture.
 
 #### Temple of Apollo - Portara
+
 ![Naxos]({{ site.baseurl }}/assets/images/greece/Naxos.jpg)
 
 ### Day 4: Exploring Naxos
