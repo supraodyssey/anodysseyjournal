@@ -27,4 +27,6 @@ We were thoroughly impressed with Pampers Pure Protection diapers. They provided
 
 **P.S.** Considering Pampers Pure Protection diapers? We recommend checking them out on Amazon [Pampers Pure Protection Baby Diapers](https://amzn.to/43y8Qu5). They often have great deals and subscribe-and-save options available.
 
+<a href="https://amzn.to/43y8Qu5" target="_blank" style="border:none;text-decoration:none"><img src="{{ site.baseurl }}/assets/images/amazon.gif"></a>
+
 **By using our affiliate link, you support our blog while getting Pampers Pure Protection diapers at a fantastic price!**
