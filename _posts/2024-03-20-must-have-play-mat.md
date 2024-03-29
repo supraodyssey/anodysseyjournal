@@ -30,6 +30,8 @@ With a vast array of foldable foam mats available, consider these factors to ens
 
 [Buy at Amazon](https://amzn.to/3vqXknV): We recommend checking out this popular foldable foam play mat - it might be the perfect fit for your little explorer!
 
+<a href="https://amzn.to/3vqXknV" target="_blank" style="border:none;text-decoration:none"><img src="{{ site.baseurl }}/assets/images/amazon.gif"></a>
+
 ### Beyond Crawling: A Long-Lasting Investment
 
 The benefits of foldable foam mats extend far beyond the crawling stage! These versatile playmats can be used for various purposes throughout your child's development, including:
