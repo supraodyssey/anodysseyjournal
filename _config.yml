@@ -5,7 +5,7 @@ description: "Blog"
 #favicon: 'assets/images/favicon.ico'
 #baseurl: '/'
 
-include: ["_pages"]
+include: ["_pages", "908e35f3b07f498a9b79cc4347906408.txt"]
 permalink: /:title/
 
 # Plugins
