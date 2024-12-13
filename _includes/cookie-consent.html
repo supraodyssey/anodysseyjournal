@@ -22,7 +22,9 @@
             date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000)); // Setting cookie expiration to 30 days
             expires = "; expires=" + date.toUTCString();
         }
-        document.cookie = name + "=" + value + expires + "; path=/";  // Store the cookie for the entire website
+        
+        // Setting the cookie with SameSite attribute to allow cross-site requests
+        document.cookie = name + "=" + value + expires + "; path=/; samesite=Lax";  // Ensure the cookie is available across the site
     }
 
     // Function to read a cookie
@@ -74,11 +76,13 @@
     document.getElementById('cookie-notice-accept').addEventListener("click", function() {
         createCookie('cookie-notice-dismissed', 'true', 30); // Store cookie for 30 days
         document.getElementById('cookie-notice').style.display = 'none'; // Hide the notice after accepting
-        location.reload(); // Reload the page to reset any dynamic content
     });
 
     // Only check geolocation and show the notice if the cookie is not present (first visit or cookie expired)
     if (!isConsentDismissed()) {
         getUserCountry();  // Run the geolocation check only if the cookie is not set
+    } else {
+        // If the user has already given consent, make sure the notice is hidden.
+        document.getElementById('cookie-notice').style.display = 'none';
     }
 </script>
