@@ -25,6 +25,9 @@
         
         // Setting the cookie with SameSite attribute to allow cross-site requests
         document.cookie = name + "=" + value + expires + "; path=/; samesite=Lax";  // Ensure the cookie is available across the site
+
+        // Debugging: Log cookie creation
+        console.log("Cookie Created: " + name + "=" + value);
     }
 
     // Function to read a cookie
@@ -76,6 +79,9 @@
     document.getElementById('cookie-notice-accept').addEventListener("click", function() {
         createCookie('cookie-notice-dismissed', 'true', 30); // Store cookie for 30 days
         document.getElementById('cookie-notice').style.display = 'none'; // Hide the notice after accepting
+
+        // Debugging: Log the state of cookies after acceptance
+        console.log("Cookies after acceptance: ", document.cookie);
     });
 
     // Only check geolocation and show the notice if the cookie is not present (first visit or cookie expired)
