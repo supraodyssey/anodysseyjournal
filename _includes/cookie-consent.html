@@ -19,10 +19,10 @@
         var expires = "";
         if (days) {
             var date = new Date();
-            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000)); // Setting cookie expiration to 30 days
             expires = "; expires=" + date.toUTCString();
         }
-        document.cookie = name + "=" + value + expires + "; path=/";
+        document.cookie = name + "=" + value + expires + "; path=/";  // Store the cookie for the entire website
     }
 
     // Function to read a cookie
@@ -37,14 +37,14 @@
         return null;
     }
 
-    // Function to erase a cookie
+    // Function to erase a cookie (not needed in this scenario, but good to know)
     function eraseCookie(name) {
         createCookie(name, "", -1);
     }
 
     // Check if the cookie consent has been dismissed
     function isConsentDismissed() {
-        return readCookie('cookie-notice-dismissed') === 'true';
+        return readCookie('cookie-notice-dismissed') === 'true'; // Read if the consent has been given
     }
 
     // List of countries that require consent (based on GDPR or other laws)
@@ -57,7 +57,7 @@
     // Fetch user geolocation information (to get the country)
     function getUserCountry() {
         // Using ipinfo.io with referrer-based restrictions
-        fetch('https://ipinfo.io/json?token=3299b22de5ff75')  
+        fetch('https://ipinfo.io/json?token=3299b22de5ff75')  // Replace YOUR_API_KEY with your actual API key from ipinfo.io
             .then(response => response.json())  // Parse the JSON response
             .then(data => {
                 const countryCode = data.country; // Get the country code (e.g., 'US', 'GB', etc.)
@@ -66,22 +66,24 @@
                 // If the country requires consent, display the cookie notice
                 if (countriesRequiringConsent.includes(countryCode)) {
                     if (!isConsentDismissed()) {
-                        document.getElementById('cookie-notice').style.display = 'block';
+                        document.getElementById('cookie-notice').style.display = 'block'; // Show the consent notice
                     }
                 }
             })
             .catch(error => {
-                console.error('Error fetching geolocation:', error);
+                console.error('Error fetching geolocation:', error);  // Handle any errors in the geolocation fetch
             });
     }
 
-    // Handle accept button click
+    // Handle the user accepting the cookie notice
     document.getElementById('cookie-notice-accept').addEventListener("click", function() {
-        createCookie('cookie-notice-dismissed', 'true', 31);
-        document.getElementById('cookie-notice').style.display = 'none';
-        location.reload();
+        createCookie('cookie-notice-dismissed', 'true', 30); // Store cookie for 30 days
+        document.getElementById('cookie-notice').style.display = 'none'; // Hide the notice after accepting
+        location.reload(); // Reload the page to reset any dynamic content
     });
 
-    // Check geolocation and show cookie notice if required
-    getUserCountry();
+    // Only check geolocation if the cookie is not present (first visit or cookie expired)
+    if (!isConsentDismissed()) {
+        getUserCountry();
+    }
 </script>
