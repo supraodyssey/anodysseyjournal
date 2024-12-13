@@ -37,11 +37,6 @@
         return null;
     }
 
-    // Function to erase a cookie (not needed in this scenario, but good to know)
-    function eraseCookie(name) {
-        createCookie(name, "", -1);
-    }
-
     // Check if the cookie consent has been dismissed
     function isConsentDismissed() {
         return readCookie('cookie-notice-dismissed') === 'true'; // Read if the consent has been given
@@ -82,8 +77,8 @@
         location.reload(); // Reload the page to reset any dynamic content
     });
 
-    // Only check geolocation if the cookie is not present (first visit or cookie expired)
+    // Only check geolocation and show the notice if the cookie is not present (first visit or cookie expired)
     if (!isConsentDismissed()) {
-        getUserCountry();
+        getUserCountry();  // Run the geolocation check only if the cookie is not set
     }
 </script>
