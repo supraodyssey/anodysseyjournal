@@ -3,7 +3,7 @@ layout: post
 title: "Our Family Experience at Nexstay Coffee Grove Resort, Chikmagalur"
 author: pramod
 categories: [Karnataka, India, Travel]
-image: 
+image: assets/images/india/nexstay_coffee_grove.jpg
 tags: [featured]
 ---
 
