@@ -52,7 +52,7 @@
     // Fetch user geolocation information (to get the country)
     function getUserCountry() {
         // Using ipinfo.io with referrer-based restrictions
-        fetch('https://ipinfo.io/json?token=YOUR_API_KEY')  // Replace YOUR_API_KEY with your actual API key from ipinfo.io
+        fetch('https://ipinfo.io/json?token=3299b22de5ff75')  // Replace YOUR_API_KEY with your actual API key from ipinfo.io
             .then(response => response.json())  // Parse the JSON response
             .then(data => {
                 const countryCode = data.country; // Get the country code (e.g., 'US', 'GB', etc.)
