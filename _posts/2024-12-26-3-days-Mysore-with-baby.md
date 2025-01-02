@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Visiting Mysore with a Baby: Top Attractions and Must-Visit Places"
-author: "Pramod"
+author: "pramod"
 categories: [Travel, Karnataka, India, Mysore]
 image: assets/images/india/Mysore_Palace.jpg
 tags: [featured]
