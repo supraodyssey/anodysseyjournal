@@ -12,7 +12,7 @@
     <a id="cookie-notice-accept" class="btn btn-primary btn-sm">Ok</a>
     <a href="/privacy-policy" class="btn btn-primary btn-sm">More info</a>
 </div>
-
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XE30XL1TKF"></script>
 <script>
     // Function to create a cookie
     function createCookie(name, value, days) {
@@ -92,6 +92,12 @@
         getUserCountry();  // Run the geolocation check only if the cookie is not set
     } else {
         // If the user has already given consent, make sure the notice is hidden.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XE30XL1TKF');
         document.getElementById('cookie-notice').style.display = 'none';
     }
 </script>
+
