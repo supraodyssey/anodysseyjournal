@@ -47,7 +47,7 @@ One of the most popular beaches in Gokarna, **Om Beach** gets its name from its 
 - Practice yoga or meditate by the shore
 - Enjoy local seafood at beachside shacks
 
-![Gokarna]({{ site.baseurl }}//assets/images/india/Gokarna_beach1.jpg)
+![Gokarna]({{ site.baseurl }}/assets/images/india/Gokarna_beach1.jpg)
 
 **Best Time to Visit:** The months from October to March are ideal for visiting Om Beach.
 
