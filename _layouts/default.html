@@ -35,7 +35,7 @@
 </head>
 
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
-	{% include googletag.html %}
+	
     <!-- Navbar -->
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container">
@@ -62,6 +62,7 @@
     <!-- Content -->
     <main role="main" class="site-content">
         {{ content }}
+	    {% include cookie-consent.html %}
     </main>
 
 
