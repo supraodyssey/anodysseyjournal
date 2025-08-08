@@ -3,7 +3,7 @@ layout: post
 title: "Independence Day Getaways & Events: Best Places to Visit in Karnataka (2025)"
 author: pramod
 categories: [Travel]
-image: assets/images/india/independence_day.jpeg
+image: assets/images/india/independence_day.jpg
 tags: [ independence day, 
   karnataka tourism, 
   lalbagh flower show 2025, 
