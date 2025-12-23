@@ -1,24 +1,9 @@
 ---
-author: pramod
-categories:
-- Travel
-image: /assets/images/india/Hampi_1.png
 layout: post
-seo:
-  keywords: Hampi ruins, Hampi sightseeing, Hampi sunrise viewpoint, Hampi heritage
-    sites, Hampi temples, Hampi Hippie Island, things to do in Hampi, Hampi day trips
-  type: BlogPosting
-tags:
-- Hampi ruins
-- Hampi sightseeing
-- Hampi sunrise viewpoint
-- Hampi heritage sites
-- Hampi temples
-- Hampi Hippie Island
-- things to do in Hampi
-- Hampi day trips
-title: The Magic of Hampi: A Journey Through Time, Nature, and Soul
-
+title: "The Magic of Hampi: A Journey Through Time, Nature, and Soul"
+author: pramod
+categories: [Hampi, India, Travel]
+image: assets/images/india/Hampi_1.png
 ---
 
 Last month, I packed my bag and headed to Hampi, Karnataka, honestly not knowing what to expect. I’d heard about the ruins, the history, the landscape—yeah, it sounded like a postcard. But what I discovered was something way more profound. A place that felt like stepping into a living story, a timeless wonder that made me slow down and reflect. Want to know the best part? It all started at sunrise on Matanga Hill. That peaceful moment set the tone for days filled with awe, surprises, and quiet revelations.
